@@ -1,260 +1,243 @@
-.topnav {
-    background-color: #333;
-    height: 80px;
-    position: fixed;
-    width: 100%;
-    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
-}
-
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 30px 30px;
-    text-decoration: none;
-    font-size: 19px;
-    padding-left: 80px;
-}
-
-
 body {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-#logo img {
-    width: 140px;
-    position: absolute;
-    top: 1px;
-    left: 35px;
-}
-
-#user {
-    float: left;
-    width: 230px;
-    padding-left: 40px;
-}
-
-#user a{
-    padding-top: 10px;
-    padding-bottom: 3px;
-    padding-left: 100px;
-}
-
-.bigimage img {
-    width: 80%;
-    margin-top: 120px;
-    border: 5px solid black;
-    border-radius: 5px;
-}
-
-.bigimage {
-    width: 100%;
-    text-align: center;
-
+    font-family: 'Oswald', sans-serif;
+    min-height: 400px;
+  
 }
 
 .container {
-    width: 80%;
-    margin: auto;
-        
+    min-height: 600px;
 }
 
-.sellers {
-    float: left;
-    width: 30%;
-    margin-top: 20px;
-    margin-left: 10px;
-    border-radius: 10px;
-    margin-right: 10px;
+
+.navbar {
+    padding: 20px 5px;
+    color: rgb(38, 66, 58);
+    background-color: #3c3d41;
+    letter-spacing: 2px;
 }
 
-.img-item{
-    background-color: #f8f8f8;
+.navbar a {
+    color: rgb(184, 19, 19);
+    font-size: 19px;
+}
+
+.underNav {
+    margin-bottom: 150px;
+}
+
+.jumbotron {
+    margin-bottom: 50px;
+    padding: 260px 0px 330px 0px;
+    background-image: url('pictures/realfakedoorsalt.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border:3px solid #021a40;
+
+}
+
+.card {
+    margin: 15px;
+}
+
+.card img {
     width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
-.text-item{
-    width: 100%;
+#hk3 {
+    color: rgb(184, 19, 19);
 }
 
-#topsellers {
-    width: 80%;
-    margin: auto; 
+.allCart {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
-.sellers img{
+.cart {
+    padding: 20px;
+}
+
+.cartList {
+    list-style-type: none;
+}
+
+
+#footerlogo {
     width: 200px;
-
+   
 }
 
-.sellers-home{
-    width: 33.3%;
-    float: left;
-    text-align: center;
-}
-
+#myFooter {
+    background-color: #3c3d41;
+    color: white;
+    padding-top: 30px;
     
-.sellers-home img{
-    width: 200px;
+    
 }
 
-.text-item h3{
-    text-align: left;
+#myFooter .row {
+    margin-bottom: 60px;
 }
 
-#door1 img{
-    background-color: #f8f8f8;
-    margin-top: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
 }
 
-#door2 img{
-    background-color: #f8f8f8;
-    margin-top: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
 
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
 }
 
-#door3 img{
-    width: 148px;
-    background-color: #f8f8f8;
-    margin-top: 10px;
-    padding: 30px;
-
-}
-
-.footer {
-    width: 100%;
-    background-color: #333;
-    float: left;
+#myFooter h3 {
+    font-size: 25px;
+    font-style: bold;
+    color: rgb(184, 19, 19);
+    font-weight: bold;
     margin-top: 30px;
-
 }
 
-
-.footerpic {
-    float: left;
-    width: 20%;
-    text-align: center; 
-    padding-left: 150px;
-
-}
-.footer img {
-    width: 160px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-
-
-}
-
-.socialmedia {
-    float: right;
-    width: 20%;
-    margin-top: 0px;
-}
-
-.socialmedia a {
-    font-size: 20px;
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
-    text-decoration: none;
-    font-weight: 300;
-
-}
-
-.socialmedia h2 {
-    color: white;
-    padding-top: -20px;
-    
-
-}
-
-.about {
-    float: left;
-    width: 20%;
-    margin-left: 100px;
-    color: white;
-    font-weight: 300;
-}
-
-.about p {
-    text-align: left;
-    margin-top: -17px;
-    color: white;
-    font-weight: 300;    
-
-}
-
-.contact {
-    float: left;
-    width: 20%;
-    margin: auto;
-    font-weight: 300;
-}
-
-.contact h2 {
-    color: white;  
-}
-
-.contact a, .contact p {
-    font-size: 20px;
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
-    text-decoration: none;
-    font-weight: 300;
-}
-
-.contact p {
-    margin-top: 5px;
-    margin-bottom: 3px;
-}
-
-.allproducts {
-    width: 80%;
-    margin: auto;
+#myFooter h2 a{
+    font-size: 50px;
     text-align: center;
-    padding-top: 100px;
+    color: rgb(184, 19, 19);
 }
 
-.text-item h3, .text-item p, .sellers-home h3,{
-    width: 50%;
-    float: left;
+#myFooter p {
+    color: rgb(184, 19, 19);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: rgb(129, 16, 16);
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: rgb(129, 16, 16);
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.row {
     margin: 0;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    padding-left: 10px;
-    font-size: 14px;
-}
-
-.text-item p{
-    text-align: right;
-    margin-top: -38px;
-}
-
-.form {
-    width: 100%;
     text-align: center;
-    padding-top: 100px;
+}
+
+.mycards {
+    padding: 50px;
+    margin-left: 100px;
+}
+
+.productscont {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+html{
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+
+@media (max-width:768px) {
+    .main {
+        margin-top:0;
+    }
+    .navbar-fixed-top {
+        position:static;
+    }
+
+
+    .jumbotron {
+        margin: 0px;
+        padding: 60px 0px 150px 0px;
     
-}
+    
+    }
 
-.form fieldset {
-    width: 50%;
-    margin: auto;
-    text-align: left;
-}
+    .container {
+        min-height: 420px;
+    }
 
+    #footerlogo {
+        width: 200px;
+        margin-left: 0px;
+    }
+    
+    .nav {
+        text-align: center;
 
-.submitbot {
-    text-align: center;
-    padding-top: 10px;
-}
+    }
+
+    #myFooter {
+        text-align: center;
+    }
+
+    #login {
+        margin-top: 10px;
+    }
+
+    .navbar a { 
+        padding-left: 135px;
+    }
+} 

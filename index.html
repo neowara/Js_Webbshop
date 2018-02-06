@@ -1,98 +1,92 @@
-
-
-
 <!DOCTYPE html>
 <html>
-
-
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108233969-2"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-108233969-2');
-    </script>
     <title>Real Fake Doors</title>
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
-
 <body>
-    <div class="topnav" id="myTopnav">
-            <a id="logo" href="index.html"><img src="pictures/logoalt.png"></a>
-            <a href="products.html">Real Fake Doors</a>
-            <a href="#windows">Real Fake Windows</a>
-            <a href="#toilets">Real Fake Toilets</a>
-            <a href="#paintings">Real Fake Paintings</a>
-        <div id="user">
-            <a href="#" id="login"><i class="fa fa-key" aria-hidden="true"></i>Log in</a>
-            <a href="register.html" id="register"><i class="fa fa-user" aria-hidden="true"></i>
-                Register</a>
-        </div>
-    </div>
 
-
-    <div class="container">
-        <div class="bigimage">
-            <img src="pictures/realfakedoorsalt.png">
-        </div>
-        
-        <div id="topsellers">
-            <div class="sellers-home" id="door1">
-                <img src="pictures/realfakedoor1.png" alt="fakedoors"> 
-                <h3>Top Seller</h3><p>Dungeon Door</p>
-            </div>  
-            <div class="sellers-home" id="door2">
-                    <img src="pictures/realfakedoor2.png" alt="fakedoors"> 
-                    <h3>On Sale</h3><p>Fancy Fake Door</p>
+    <!-- NavBar -->
+   <nav class="navbar navbar-expand-lg navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <a class="navbar-brand" href="index.html" id="navtitle">Real Fake Doors</a>
             </div>
-            
-            <div class="sellers-home" id="door3">
-                <img src="pictures/realfakedoor3.jpg" alt="fakedoors"> 
-                <h3>New Items</h3><p>Boring Grampa Door</p>
-            </div>  
+            <div class="nav navbar-nav">
+
+            <ul class="nav navbar-nav" id="categoryMain"></ul>
+            <li id="shoppingCart"><a href="#" onclick="shopCart()"><span class="glyphicon glyphicon-shopping-cart"></span>Shopping Cart</a></li>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                
+              <form class="form-inline my-4 my-lg-0">
+                <input class="form-control mr-sm-2 username" type="text" placeholder="Epost" aria-label="Epost">
+                <input class="form-control mr-sm-2 pass" type="password" placeholder="Lösenord" aria-label="Lösenord">
+                <button class="btn btn-outline-success my-2 my-sm-0" id="login" type="submit"><span class="glyphicon glyphicon-log-in"></span> Log in</button>
+                <button class="btn btn-outline-success my-2 my-sm-0" id="logout" type="submit"><span class="glyphicon glyphicon-log-out"></span> Log out</button>
+              </form>
+            </ul>
         </div>
+        <div class="container-fluid">
+        </div>
+    </nav>
 
-    </div>
+    <div class="underNav"></div>
+    <!-- NavBar -->
 
-    <div class="footer">
-            <div class="about"><h2>About us</h2><p>Are you tired of real doors cluttering up your house when you open 'em and you actually go somewhere, and you go to another room? Get on down to Real Fake Doors! That's us!</p></div>
-            <div class="footerpic"><img src="pictures/logoalt.png"></div>
-            <div class="contact"><h2>Contact us</h2>
-                                 <p>
-                                     <a href="mailto:christiantoledo@live.com?Subject=Hello%20again" target="_top">christiantoledo@live.com</a>
-                                </p>
-                                <p>
-                                    <a href="tel:073696666">073-696-6666</a>
-                                </p>
-                                 <p>Fake Street 23</p>
-                                 <p>444 25 Fakeaf</p>
+<div class="container">
+        <div class="jumbotron"></div>
+        <div class="row allProducts"></div>
+</div>  
+
+
     
-            </div>
-            <div class="socialmedia"> 
-                    <h2>Social Media</h2>
-                    <p>
-                        <a href="https://www.facebook.com/christiantoledo92"><i class="fa fa-facebook-official" aria-hidden="true"></i>  Facebook</a>
-                    </p>
-                    <p>
-                        <a href="https://twitter.com/MugiSays"><i class="fa fa-twitter-square" aria-hidden="true"></i>  Twitter</a>
-                    </p>
-                    <p>
-                        <a href="https://www.instagram.com/neowara"><i class="fa fa-instagram" aria-hidden="true"></i>  Instagram</a>
-                    </p>
+
+<!-- Footer -->
+<footer class="footer fixed-bottom" id="myFooter">
+        <div class="container-fluid"></div>
+            <div class="row">
+                <div class="col-sm-4 center">
+                    <a href="index.html"><img id="footerlogo" src="pictures\logoalt.png"></a>
                 </div>
-        
+    
+                <div class="col-sm-4">
+                    <h3>Information</h3>
+                    <ul>
+                        <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Donec vulputate dolor at tempus lobortis. Phasellus. Penis
+                                Donec vulputate dolor at tempus lobortis. Phasellus. Penis
+                                Donec vulputate dolor at tempus lobortis. Phasellus. Penis
+                        </p></li>
+                    </ul>
+                </div>
+              
+                <div class="col-sm-4">
+                    <div class="social-networks">
+                        <a href="https://twitter.com/MugiSays" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/christiantoledo92" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="https://goo.gl/Efpgg3" class="google"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                    <button type="button" class="btn btn-default">Contact us</button>
+                </div>
+            </div>
         </div>
-    
-        
-        
-    
-    
-    </body>
-    
-    
-    
-    </html>
+    </footer>
+    <!-- Footer -->
+
+
+  <script src="https://use.fontawesome.com/1ea0ded6c7.js"></script>    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+</body>
+</html>

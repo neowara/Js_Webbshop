@@ -1,0 +1,49 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    min-height: 400px;
+  
+}
+
+.admin {
+    color: white;
+    margin-left: 12px;
+    margin-bottom: 5px;
+}
+
+
+
+.adminList {
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(38, 66, 58);
+    background-color: #3c3d41;
+    letter-spacing: 2px;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: -27px;
+    text-decoration: none;
+ 
+}
+
+li {
+    padding-right: 20px;
+    text-decoration:
+}
+
